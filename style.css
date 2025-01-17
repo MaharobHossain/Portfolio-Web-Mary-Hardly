@@ -1,5 +1,20 @@
 /* Navbar Style */
 
+
+.poppins-font {
+    font-family: "Poppins", serif;
+    font-style: normal;
+  }
+
 nav{
     display: flex;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
 }
