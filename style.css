@@ -95,6 +95,9 @@ nav li a{
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 
 /* main style */
