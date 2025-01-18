@@ -6,11 +6,17 @@
     font-style: normal;
   }
 
+  .header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 90px;
+    margin: 0px 200px;
 }
 /* shared style */
 .text-primary{
@@ -45,4 +51,31 @@ nav li a{
     border-radius: 5px;
     color: white;
     border: none;
+}
+
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-box{
+    max-width: 585px;
+}
+.banner-h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.banner-img{
+    width: 584px;
+    height: 676px;
 }
