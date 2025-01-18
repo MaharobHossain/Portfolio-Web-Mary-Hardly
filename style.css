@@ -150,3 +150,37 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #1E1E1E;
 }
+
+
+
+/* resume section style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-titel{
+    color: #181818;
+}
+.resume-colam-titel{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experiance-titel{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.experiance-sub-titel{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experiance-description{
+    font-size: 16px;
+    color: #757575;
+}
+.resume hr{
+    margin: 20px 0px;
+}
