@@ -229,24 +229,23 @@ footer{
     width: 90%;
 }
 
+/* Responsive For Mobile Device */
+
 
 @media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+
+    .skill-continer{
+        flex-direction: column-reverse;
+    } 
     
 }
 
 
+
+
 @media screen and (min-width: 577px) and (max-width: 992px){
 
-    .container{
-        gap: 20px;
-        grid-template-areas: 
-        "header      header    header"
-        "nav         nav       nav"
-        "sidebar     main      main"
-        "advertise      main      main"
-        /* "advertise   footer    footer" */
-        "footer   footer    footer"
-        
-        ;
-    }
 }
