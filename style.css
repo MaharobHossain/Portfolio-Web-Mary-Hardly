@@ -236,7 +236,26 @@ footer{
     .hide{
         display: none;
     }
-
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 30px;
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bnt-primary{
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
     .skill-continer{
         flex-direction: column-reverse;
     } 
