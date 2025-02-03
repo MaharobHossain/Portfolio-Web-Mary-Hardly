@@ -247,6 +247,17 @@ footer{
         flex-direction: column;
         padding: 30px;
     }
+    footer{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .footer-coloum{
+        /* width: 85%; */
+        width: 100%;
+    }
+    .contact input[type="text"], input[type="email"],textarea{
+        width: calc(100% - 60px);
+    }
     
 }
 
