@@ -120,6 +120,7 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /* about style */
 .about{
     border-radius: 10px;
@@ -226,4 +227,9 @@ footer{
     border-radius: 5px;
     background: white;
     width: 90%;
+}
+
+
+@media screen and (max-width: 576px) {
+    
 }
