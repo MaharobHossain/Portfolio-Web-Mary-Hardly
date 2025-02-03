@@ -240,6 +240,13 @@ footer{
     .skill-continer{
         flex-direction: column-reverse;
     } 
+    .skills{
+        padding: 30px;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 30px;
+    }
     
 }
 
